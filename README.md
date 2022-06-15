@@ -1,6 +1,6 @@
 # Portfolio Website
 A portfolio website that is built on React framework. \
-Since this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), the scripts you can run are under [Available Scripts](##availablescripts) section.
+Since this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), the scripts you can run are under [Available Scripts](#available-scripts) section.
 
 ## Quickstart
 To get started, install Node.js version 18 via [nvm (Node Version Manager)](https://github.com/nvm-sh/nvm), and run the line below in root directory to install all dependencies:
