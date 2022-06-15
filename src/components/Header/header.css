@@ -1,0 +1,89 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/*================== CTA STYLES ==================*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+}
+
+/*================== SOCIAL STYLES ==================*/
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*================== SOCIAL STYLES ==================*/
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 35rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 2rem 2rem;
+}
+
+/*================== SCROLL STYLES ==================*/
+.scroll__down {
+    display: flex;
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*================== MEDIA QUERIES (TABLET DEVICES) ==================*/
+@media screen and (max-width: 1320px) {
+
+}
+
+/*================== MEDIA QUERIES (SMALL DEVICES) ==================*/
+@media screen and (max-width: 1080px) {
+    header {
+        height: 90vh;
+    }
+
+    .me {
+        width: 30rem;
+        height: 50rem;
+    }
+
+    .cta {
+        font-size: 1.5rem;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
+
