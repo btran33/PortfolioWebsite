@@ -59,7 +59,7 @@ const Experience = () => {
             <article className='experience__details'>
               <div>
                 <h4>Python</h4>
-                <small className='text-light'>Knowledgable</small>
+                <small className='text-light'>Knowledgeable</small>
               </div>
             </article>
 
@@ -87,7 +87,7 @@ const Experience = () => {
             <article className='experience__details'>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Knowledgable</small>
+                <small className='text-light'>Knowledgeable</small>
               </div>
             </article>
 

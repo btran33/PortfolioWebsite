@@ -2,20 +2,38 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Heated Crimes',
-    git: 'https://github.com/btran33/HeatedCrimes',
-    demo: 'https://github.com/btran33/HeatedCrimes'
+    title: 'CryptoBot',
+    git: 'https://github.com/btran33/CryptoBot',
+    demo: 'https://github.com/btran33/CryptoBot'
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'DeFlicker',
+    title: '3D Gas Simulation',
+    git: 'https://github.com/btran33/3D-Ideal-Gas-Simulation',
+    demo: 'https://github.com/btran33/3D-Ideal-Gas-Simulation'
+  },
+
+  {
+    id: 3,
+    image: IMG3,
+    title: 'TimeLapse App',
+    git: 'https://github.com/btran33/TimeLapse-App',
+    demo: 'https://github.com/btran33/TimeLapse-App'
+  },
+
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Heated Crimes',
     git: 'https://github.com/btran33/HeatedCrimes',
     demo: 'https://github.com/btran33/HeatedCrimes'
   }
