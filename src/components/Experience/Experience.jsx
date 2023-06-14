@@ -37,17 +37,11 @@ const Experience = () => {
 
             <article className='experience__details'>
               <div>
-                <h4>React JS</h4>
+                <h4>React</h4>
                 <small className='text-light'>Knowledgeable</small>
               </div>
             </article>
 
-            <article className='experience__details'>
-              <div>
-                <h4>Tailwind</h4>
-                <small className='text-light'>Novice</small>
-              </div>
-            </article>
           </div>
         </div>
       
@@ -76,6 +70,13 @@ const Experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
+
+            <article className='experience__details'>
+              <div>
+                <h4>Firebase</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -101,6 +102,13 @@ const Experience = () => {
             <article className='experience__details'>
               <div>
                 <h4>C</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <div>
+                <h4>Go</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>

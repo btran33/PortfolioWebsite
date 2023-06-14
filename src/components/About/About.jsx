@@ -33,13 +33,13 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Year Researching</small>
+              <small>2+ Year Researching</small>
             </article>
 
             <article className='about__card'>
               <FaGraduationCap className='about__icon' />
               <h5>Education</h5>
-              <small>Graduate Student</small>
+              <small>Graduate Level</small>
             </article>
 
             <article className='about__card'>
@@ -51,7 +51,7 @@ const About = () => {
 
           <p>
             I am an aspiring software developer/engineer, 
-            currently in the Professional Masters of Computer Science program at UIUC.
+            graduated with Professional Masters of Computer Science program at UIUC.
             I like to listen to music, play videogames, take occasional portraits of my cats,
             and create interesting software projects during my free time.
           </p>

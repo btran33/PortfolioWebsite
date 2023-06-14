@@ -1,15 +1,15 @@
 .container.contact__container {
-    width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
 }
 
-.contact__options {
+/* .contact__options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-}
+} */
 
 .contact__option {
     background: var(--color-bg-variant);
