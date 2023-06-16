@@ -12,7 +12,7 @@ const Nav = () => {
       document.getElementById('navbar').style.opacity = 1;
       isScroll = setTimeout(() => {
                   document.getElementById('navbar').style.opacity = 0;
-               }, 4000);
+               }, 3000);
    }, false)
 
    window.addEventListener('mouseover', () => {

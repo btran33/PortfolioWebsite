@@ -63,13 +63,15 @@ header {
 
 /*================== MEDIA QUERIES (TABLET DEVICES) ==================*/
 @media screen and (max-width: 1320px) {
-
+    header {
+        height: 135vh;
+    }
 }
 
 /*================== MEDIA QUERIES (SMALL DEVICES) ==================*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 960px) {
     header {
-        height: 90vh;
+        height: 130vh;
     }
 
     .me {

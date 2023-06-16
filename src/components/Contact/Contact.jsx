@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 // import emailjs from '@emailjs/browser'
 import './contact.css'
 
@@ -47,7 +47,7 @@ const Contact = () => {
         <article className="contact__option">
           <AiOutlinePhone className='contact__option-icon'/>
           <h4>Phone</h4>
-            <a href="mailto:8155031483">+1 815-503-1483</a>
+            <a href="tel:8155031483">+1 815-503-1483</a>
         </article>
       {/* </div> */}
 

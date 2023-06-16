@@ -11,9 +11,12 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .portfolio__item:hover {
@@ -24,7 +27,7 @@
 .portfolio__item-image {
     display: grid;
     justify-content: center;
-    flex: 1;
+    margin: auto;
 }
 
 .portfolio__item-image img{
@@ -42,7 +45,6 @@
     gap: 1rem;
     margin-bottom: 0.8rem;
     align-self: center;
-    flex-direction: row-reverse;
 }
 
 /*================== MEDIA QUERIES (TABLET DEVICES) ==================*/

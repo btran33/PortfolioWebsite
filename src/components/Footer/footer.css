@@ -54,10 +54,10 @@ footer a {
 
 
 /*================== MEDIA QUERIES (SMALL DEVICES) ==================*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 960px) {
     .permalinks {
         flex-direction: column;
-        gap: 1.4rem;
+        gap: 1.2rem;
     }
 
     .footer__socials {

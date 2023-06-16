@@ -1,8 +1,6 @@
 import React from 'react'
 import './footer.css'
 
-import { BsFacebook } from 'react-icons/bs'
-
 const Footer = () => {
   return (
     <footer>
@@ -15,11 +13,6 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <div className="footer__socials">
-        <a href="https://www.facebook.com/giathien.tran.5/"> 
-        <BsFacebook/></a>
-      </div>
 
       <div className="footer__copyright">
         <small>&copy; Ben Tran. All rights reserved</small>

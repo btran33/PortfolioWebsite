@@ -43,6 +43,6 @@ nav a.active{
 /*================== MEDIA QUERIES (SMALL DEVICES) ==================*/
 @media screen and (max-width: 1080px) {
     nav a {
-        font-size: 2.1rem;
+        font-size: 1.4rem;
     }
 }
