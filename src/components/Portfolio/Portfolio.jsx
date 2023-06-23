@@ -1,9 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/gasdemo.gif'
-import IMG2 from '../../assets/cryptobot.gif'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/gasdemo.webm'
+import IMG2 from '../../assets/cryptobot.webm'
+import IMG3 from '../../assets/insulin.webp'
+import IMG4 from '../../assets/timelapse.webp'
+import ReactPlayer from 'react-player'
 
 const data = [
   {
@@ -11,6 +12,8 @@ const data = [
     image: IMG1,
     title: '3D Gas Simulation',
     git: 'https://github.com/btran33/3D-Ideal-Gas-Simulation',
+    isVideo: true,
+    hasLink: false
   },
   
   {
@@ -18,21 +21,28 @@ const data = [
     image: IMG2,
     title: 'CryptoBot',
     git: 'https://github.com/btran33/CryptoBot',
+    isVideo: true,
+    hasLink: false
   },
 
 
   {
     id: 3,
     image: IMG3,
-    title: 'TimeLapse App',
-    git: 'https://github.com/btran33/TimeLapse-App',
+    title: 'Insulin Supply Calculator',
+    git: 'https://github.com/btran33/Insulin-PWA/',
+    isVideo: false,
+    hasLink: true,
+    link: 'https://btran33.github.io/Insulin-PWA/'
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'Heated Crimes',
-    git: 'https://github.com/btran33/HeatedCrimes',
+    title: 'TimeLapse App',
+    git: 'https://github.com/btran33/TimeLapse-App',
+    isVideo: false,
+    hasLink: false
   }
 ]
 
@@ -46,17 +56,29 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         
         {
-          data.map(({id, image, title, git}) => {
+          data.map(({id, image, title, git, isVideo, hasLink, link}) => {
             return (
               <article key={id} className="portfolio__item">
+                {/* return either a reactPlayer or image */}
                 <div className="portfolio__item-image">
-                  <img src={image} alt={title}/>
+                  { isVideo ?
+                    <ReactPlayer className="portfolio__item-video" url={image} 
+                      playing={true} loop={true} muted={true} 
+                      width="100%" height="100%"/> 
+                    :
+                    <div>
+                      <img src={image} alt={title} />
+                    </div>
+                  } 
                 </div>
 
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={git} className='btn'>Github</a>
-                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> */}
+                  { hasLink ? 
+                    <a href={link} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> :
+                    <a/>
+                  }
                 </div>
               </article>
             )

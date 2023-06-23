@@ -2,8 +2,8 @@ import React from 'react'
 import './about.css'
 
 import { FaAward, FaGraduationCap, FaRegFolderOpen } from 'react-icons/fa'
-import ME from '../../assets/me-about2.jpg'
-import ME_CAT from '../../assets/me-about-cat.jpg'
+import ME from '../../assets/me-about2.webp'
+import ME_CAT from '../../assets/me-about-cat.webp'
 
 const About = () => {
   return (

@@ -35,6 +35,11 @@
     overflow: hidden;
 }
 
+.portfolio__item-video {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
 .portfolio__item h3 {
     margin: 1.2rem 0 1rem;
     align-self: center;
