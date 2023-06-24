@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.e55d1b8c.css",
-    "main.js": "/PortfolioWebsite/static/js/main.04438dd5.js",
+    "main.css": "/PortfolioWebsite/static/css/main.efb20ad0.css",
+    "main.js": "/PortfolioWebsite/static/js/main.5721192c.js",
     "static/media/me-about2.webp": "/PortfolioWebsite/static/media/me-about2.72e26240d62d08cd4d3f.webp",
     "static/media/timelapse.webp": "/PortfolioWebsite/static/media/timelapse.dc77024380ed8b951475.webp",
     "static/media/me-about-cat.webp": "/PortfolioWebsite/static/media/me-about-cat.dfef9698bb826aabfdbf.webp",
-    "static/media/gasdemo.webm": "/PortfolioWebsite/static/media/gasdemo.3075802684f62f423bb3.webm",
+    "static/media/gasdemo.mp4": "/PortfolioWebsite/static/media/gasdemo.42918b7e65de819fa83e.mp4",
+    "static/media/cryptobot.mp4": "/PortfolioWebsite/static/media/cryptobot.298475aa37b94a6624d7.mp4",
     "static/media/me.webp": "/PortfolioWebsite/static/media/me.9bfb2bbb0d9311b2a3ee.webp",
-    "static/media/cryptobot.webm": "/PortfolioWebsite/static/media/cryptobot.4c34d4437b9acd15ae3c.webm",
     "static/media/cv.pdf": "/PortfolioWebsite/static/media/cv.a7f3de34cef31dcc89a9.pdf",
     "static/media/insulin.webp": "/PortfolioWebsite/static/media/insulin.d7ee7964dfbc1ffe48f7.webp",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.e55d1b8c.css.map": "/PortfolioWebsite/static/css/main.e55d1b8c.css.map",
-    "main.04438dd5.js.map": "/PortfolioWebsite/static/js/main.04438dd5.js.map"
+    "main.efb20ad0.css.map": "/PortfolioWebsite/static/css/main.efb20ad0.css.map",
+    "main.5721192c.js.map": "/PortfolioWebsite/static/js/main.5721192c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55d1b8c.css",
-    "static/js/main.04438dd5.js"
+    "static/css/main.efb20ad0.css",
+    "static/js/main.5721192c.js"
   ]
 }
