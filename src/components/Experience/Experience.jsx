@@ -1,6 +1,40 @@
 import React from 'react'
 import './experience.css'
 
+const data = [
+  {
+    category: "Frontend Development",
+    className: "experience__frontend",
+    experience : {
+      "HTML": "Knowledgeable",
+      "CSS": "Intermediate",
+      "Javascript": "Knowledgeable",
+      "React": "Intermediate"
+    }
+  },
+  {
+    category: "Backend Development",
+    className: "experience__backend",
+    experience : {
+      "Python": "Knowledgeable",
+      "SQL": "Knowledgable",
+      "MongoDB": "Intermediate",
+      "Firebase": "Intermediate"
+    }
+  },
+
+  {
+    category: "Software Development",
+    className: "experience__software",
+    experience : {
+      "Java": "Knowledgeable",
+      "C++": "Knowledgable",
+      "C": "Intermediate",
+      "Go": "Intermediate"
+    }
+  },
+]
+
 const Experience = () => {
   return (
     <section id='experience'> 
@@ -8,113 +42,31 @@ const Experience = () => {
       <h2>My Experience</h2>
       
       <div className="container experience__container">
-
-        {/* FRONTEND SECTION */}
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          
-          <div className="experience__content">
-            <article className='experience__details'>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Intermediate</small>
+        {
+          data.map(({category, className, experience}) => {
+            return (
+              <div key={className} className={className}>
+                <h3>{category}</h3>
+                {
+                  <div className="experience__content">
+                    {
+                      Object.entries(experience).map(([skill, level]) => {
+                        return (
+                          <article key={className + "_1_" + skill} className='experience__details'>
+                            <div>
+                              <h4>{skill}</h4>
+                              <small className='text-light'>{level}</small>
+                            </div>
+                          </article>
+                        )
+                      })
+                    }
+                  </div>
+                }
               </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>Javascript</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>React</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      
-        {/* BACKEND SECTION */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-
-          <div className="experience__content">
-            <article className='experience__details'>
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>SQL</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>Firebase</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        {/* SOFTWARE SECTION */}
-        <div className="experience__software">
-          <h3>Software Development</h3>
-
-          <div className="experience__content">
-            <article className='experience__details'>
-              <div>
-                <h4>Java</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>C++</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>C</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <div>
-                <h4>Go</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-          </div>
-
-        </div>
+            )
+          })
+        }
       </div>
     </section>
   )

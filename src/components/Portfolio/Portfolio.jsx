@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/gasdemo.webm'
-import IMG2 from '../../assets/cryptobot.webm'
+import IMG1 from '../../assets/gasdemo.mp4'
+import IMG2 from '../../assets/cryptobot.mp4'
 import IMG3 from '../../assets/insulin.webp'
 import IMG4 from '../../assets/timelapse.webp'
 import ReactPlayer from 'react-player'
@@ -64,7 +64,7 @@ const Portfolio = () => {
                   { isVideo ?
                     <ReactPlayer className="portfolio__item-video" url={image} 
                       playing={true} loop={true} muted={true} 
-                      width="100%" height="100%"/> 
+                      width="100%" height="100%" /> 
                     :
                     <div>
                       <img src={image} alt={title} height="100%" width="100%"/>
@@ -75,6 +75,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={git} className='btn'>Github</a>
+                  {/* add link btn when needed */}
                   { hasLink ? 
                     <a href={link} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> : null
                   }
