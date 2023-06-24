@@ -67,7 +67,7 @@ const Portfolio = () => {
                       width="100%" height="100%"/> 
                     :
                     <div>
-                      <img src={image} alt={title} />
+                      <img src={image} alt={title} height="100%" width="100%"/>
                     </div>
                   } 
                 </div>
@@ -76,8 +76,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-cta">
                   <a href={git} className='btn'>Github</a>
                   { hasLink ? 
-                    <a href={link} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> :
-                    <a/>
+                    <a href={link} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> : null
                   }
                 </div>
               </article>

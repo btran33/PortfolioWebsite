@@ -18,11 +18,11 @@ const About = () => {
 
 
           <div className="about__me-front">
-            <img src={ME} alt="About" />
+            <img src={ME} alt="About" height="100%" width="100%"/>
           </div>
 
           <div className="about__me-back">
-            <img src={ME_CAT} alt="About" />
+            <img src={ME_CAT} alt="About" height="100%" width="100%"/>
           </div>
 
         </div>
