@@ -42,31 +42,31 @@ const Experience = () => {
       <h2>My Experience</h2>
       
       <div className="container experience__container">
-        {
-          data.map(({category, className, experience}) => {
-            return (
-              <div key={className} className={className}>
-                <h3>{category}</h3>
-                {
-                  <div className="experience__content">
-                    {
-                      Object.entries(experience).map(([skill, level]) => {
-                        return (
-                          <article key={className + "_1_" + skill} className='experience__details'>
-                            <div>
-                              <h4>{skill}</h4>
-                              <small className='text-light'>{level}</small>
-                            </div>
-                          </article>
-                        )
-                      })
-                    }
-                  </div>
-                }
-              </div>
-            )
-          })
-        }
+      {
+        data.map(({category, className, experience}) => {
+          return (
+            <div key={className} className={className}>
+              <h3>{category}</h3>
+              {
+                <div className="experience__content">
+                  {
+                    Object.entries(experience).map(([skill, level]) => {
+                      return (
+                        <article key={className + "_" + skill} className='experience__details'>
+                          <div>
+                            <h4>{skill}</h4>
+                            <small className='text-light'>{level}</small>
+                          </div>
+                        </article>
+                      )
+                    })
+                  }
+                </div>
+              }
+            </div>
+          )
+        })
+      }
       </div>
     </section>
   )

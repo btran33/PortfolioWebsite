@@ -21,15 +21,18 @@ const Nav = () => {
 
   return (
     <nav id='navbar' className='navbar'>
-      <a href="#" 
+      <a href="#"
+         aria-label='header'
          onClick={() => setNav("#")}
          className={activeNav === '#' ? 'active': ''}> <AiOutlineHome /> </a>
       
       <a href="#about" 
+         aria-label='about'
          onClick={() => setNav("#about")}
          className={activeNav === '#about' ? 'active': ''}> <AiOutlineUser /> </a>
       
       <a href="#experience"
+         aria-label='experience'
          onClick={() => setNav("#experience")}
          className={activeNav === '#experience' ? 'active' : ''}> <AiOutlineCode /> </a>
       
@@ -38,10 +41,12 @@ const Nav = () => {
          className={activeNav === '#services' ? 'active' : ''}> <RiServiceLine /> </a> */}
       
       <a href="#portfolio"
+         aria-label='portfolio'
          onClick={() => setNav("#portfolio")}
          className={activeNav === '#portfolio' ? 'active' : ''}> <AiOutlineProject /> </a>
       
       <a href="#contact"
+         aria-label='contact'
          onClick={() => setNav("#contact")}
          className={activeNav === '#contact' ? 'active' : ''}> <AiOutlinePhone /> </a>
     </nav>
