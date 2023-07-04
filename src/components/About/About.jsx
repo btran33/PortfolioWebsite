@@ -52,7 +52,7 @@ const About = () => {
           <p>
             I am an aspiring software developer/engineer, 
             graduated with Professional Masters of Computer Science program at UIUC.
-            I like to listen to music, play video games, take occasional portraits of my cats,
+            I like to listen to music, take occasional portraits of my cats,
             and create interesting software projects during my free time.
           </p>
 

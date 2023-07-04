@@ -36,6 +36,22 @@
     gap: 1rem;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.experience__details > div {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+}
+
+.experience__details_img {
+    display: grid;
+    width: 4rem;
+    height: 4rem;
+    justify-self: center;
+    border-radius: 1rem;
 }
 
 
