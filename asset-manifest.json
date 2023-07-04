@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.efb20ad0.css",
-    "main.js": "/PortfolioWebsite/static/js/main.3674b378.js",
+    "main.css": "/PortfolioWebsite/static/css/main.4a62946c.css",
+    "main.js": "/PortfolioWebsite/static/js/main.e065e0b7.js",
     "static/media/me-about2.webp": "/PortfolioWebsite/static/media/me-about2.72e26240d62d08cd4d3f.webp",
     "static/media/timelapse.webp": "/PortfolioWebsite/static/media/timelapse.dc77024380ed8b951475.webp",
     "static/media/me-about-cat.webp": "/PortfolioWebsite/static/media/me-about-cat.dfef9698bb826aabfdbf.webp",
     "static/media/gasdemo.mp4": "/PortfolioWebsite/static/media/gasdemo.42918b7e65de819fa83e.mp4",
     "static/media/cryptobot.mp4": "/PortfolioWebsite/static/media/cryptobot.298475aa37b94a6624d7.mp4",
     "static/media/me.webp": "/PortfolioWebsite/static/media/me.9bfb2bbb0d9311b2a3ee.webp",
+    "static/media/Python.webp": "/PortfolioWebsite/static/media/Python.5e03391892fd8477892a.webp",
+    "static/media/Firebase.webp": "/PortfolioWebsite/static/media/Firebase.eebbb5be986601ae235e.webp",
+    "static/media/React.webp": "/PortfolioWebsite/static/media/React.ae1803a603f34b36cfff.webp",
+    "static/media/Go.webp": "/PortfolioWebsite/static/media/Go.29c16512b39352c82cad.webp",
     "static/media/insulin.webp": "/PortfolioWebsite/static/media/insulin.d7ee7964dfbc1ffe48f7.webp",
+    "static/media/TailwindCSS.webp": "/PortfolioWebsite/static/media/TailwindCSS.40b18f07b34d500174cf.webp",
+    "static/media/Java.webp": "/PortfolioWebsite/static/media/Java.1bee027cf381a38b18c2.webp",
+    "static/media/C++.webp": "/PortfolioWebsite/static/media/C++.83afab63a23b5aa86453.webp",
+    "static/media/MongoDB.webp": "/PortfolioWebsite/static/media/MongoDB.6e9578f3e81161993356.webp",
+    "static/media/Html.webp": "/PortfolioWebsite/static/media/Html.295686003aa234cd21d9.webp",
+    "static/media/Sql.webp": "/PortfolioWebsite/static/media/Sql.674c07ef4cd0123cfa12.webp",
+    "static/media/Javascript.webp": "/PortfolioWebsite/static/media/Javascript.d69c99db7ecd54d1e691.webp",
+    "static/media/C.webp": "/PortfolioWebsite/static/media/C.02896cfab89d512410d6.webp",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.efb20ad0.css.map": "/PortfolioWebsite/static/css/main.efb20ad0.css.map",
-    "main.3674b378.js.map": "/PortfolioWebsite/static/js/main.3674b378.js.map"
+    "main.4a62946c.css.map": "/PortfolioWebsite/static/css/main.4a62946c.css.map",
+    "main.e065e0b7.js.map": "/PortfolioWebsite/static/js/main.e065e0b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb20ad0.css",
-    "static/js/main.3674b378.js"
+    "static/css/main.4a62946c.css",
+    "static/js/main.e065e0b7.js"
   ]
 }
