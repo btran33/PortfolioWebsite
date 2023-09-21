@@ -33,7 +33,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2+ Year Researching</small>
+              <small>1 Year Developer</small>
             </article>
 
             <article className='about__card'>
@@ -45,15 +45,15 @@ const About = () => {
             <article className='about__card'>
               <FaRegFolderOpen className='about__icon' />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>4+ Completed</small>
             </article>
           </div>
 
           <p>
-            I am an aspiring software developer/engineer, 
+            I am an aspiring full stack software developer/engineer, 
             graduated with Professional Masters of Computer Science program at UIUC.
             I like to listen to music, take occasional portraits of my cats,
-            and create interesting software projects during my free time.
+            and create impactful software projects during my free time.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

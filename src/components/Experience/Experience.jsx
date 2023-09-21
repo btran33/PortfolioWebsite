@@ -5,10 +5,15 @@ import HTML from '../../assets/language_icons/Html.webp'
 import CSS from '../../assets/language_icons/TailwindCSS.webp'
 import JAVASCRIPT from '../../assets/language_icons/Javascript.webp'
 import REACT from '../../assets/language_icons/React.webp'
+import NEXT from '../../assets/language_icons/nextjs.webp'
+import SVELTE from '../../assets/language_icons/svelte.webp'
+
 import PYTHON from '../../assets/language_icons/Python.webp'
 import SQL from '../../assets/language_icons/Sql.webp'
-import MONGODB from '../../assets/language_icons/MongoDB.webp'
+import NODE from '../../assets/language_icons/node.png'
 import FIREBASE from '../../assets/language_icons/Firebase.webp'
+import REDIS from '../../assets/language_icons/redis.webp'
+
 import JAVA from '../../assets/language_icons/Java.webp'
 import CPP from '../../assets/language_icons/C++.webp'
 import C from '../../assets/language_icons/C.webp'
@@ -21,18 +26,21 @@ const data = [
     experience : {
       "HTML": HTML,
       "CSS/Tailwind": CSS,
-      "Javascript": JAVASCRIPT,
-      "React": REACT
+      "Java/Typescript": JAVASCRIPT,
+      "React": REACT,
+      "NextJs": NEXT,
+      "Svelte": SVELTE,
     }
   },
   {
     category: "Backend Development",
     className: "experience__backend",
     experience : {
+      "Node.js": NODE,
       "Python": PYTHON,
       "SQL": SQL,
-      "MongoDB": MONGODB,
-      "Firebase": FIREBASE
+      "Firebase": FIREBASE,
+      "Redis": REDIS,
     }
   },
 
@@ -40,10 +48,10 @@ const data = [
     category: "Software Development",
     className: "experience__software",
     experience : {
-      "Java": JAVA,
+      "Go": GO,
       "C++": CPP,
       "C": C,
-      "Go": GO
+      "Java": JAVA,
     }
   },
 ]

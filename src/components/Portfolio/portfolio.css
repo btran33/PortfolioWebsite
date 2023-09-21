@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    gap: 1rem;
 }
 
 .portfolio__item:hover {
@@ -41,7 +42,12 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 1rem;
+    margin: 1rem 0 0rem;
+    align-self: center;
+}
+
+.portfolio__item p {
+    margin: 0.5rem 0 1rem;
     align-self: center;
 }
 
